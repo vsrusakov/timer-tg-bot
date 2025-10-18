@@ -1,0 +1,165 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.egg-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+*.egg-info
+*.tar.gz
+*.whl
+*.zip
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+hpcoverage.*
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+flask_session/
+
+# Scrapy stuff:
+.scrapy
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+#  Usually these files are in the build folder, so beware of putting build/
+#  into your .gitignore just in case you want to track your build directory
+#  *.spec
+#  dist/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Celery beat scheduler database
+celerybeat-schedule
+
+# Token and sensitive information
+config.py
+.env.example
+secrets.yaml
+.env.local
+*.session
+token.txt
+token.env
+api_token.txt
+auth_data.txt
+secret_key.txt
+credentials.json
+app_secret.json
+app_config.json
+private.key
+*.pem
+*.crt
+*.key
+*.pfx
+*.p12
+*.jks
+oauth*
+auth_credentials.json
+*.cert
+server.cert
+ca.pem
+docker-compose.override.yml
+Dockerfile.dev
+.travis.yml
+travis-ci-build.log
+.coveragerc
+pytest.ini
+tox.ini
+Makefile
+Makefile.local
+requirements.txt
+poetry.lock
+pyproject.toml
+setup.cfg
+setup.py
+MANIFEST.in
+Pipfile
+Pipfile.lock
+# Logs
+logs/
+*.log
+*.log.*
+
+# Session data
+sessions/
+sessiondata.db
+
+# Docker specific files
+docker-env.list
+.dockerignore

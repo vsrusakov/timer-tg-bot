@@ -17,7 +17,7 @@ lock = asyncio.Lock()
 
 API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'
 bot = Bot(token=API_TOKEN)
-dp = Dispatcher(bot)
+dp = Dispatcher()
 
 async def notify_user(chat_id: int):
     await bot.send_message(chat_id, "Время вышло!")
